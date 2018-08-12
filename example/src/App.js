@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { StyleSheet, css } from 'aphrodite'
+import CSSComponent from 'react-css-in-js-component'
+import MyComponent from './MyComponent';
 
-import ExampleComponent from 'react-css-in-js-component'
+CSSComponent({
+  StyleSheet: StyleSheet.create,
+  css,
+})
 
-export default class App extends Component {
+export default class App extends React.Component {
   render () {
-    return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
+    return <MyComponent />
   }
 }
