@@ -10,13 +10,13 @@
 npm install --save react-css-in-js-component
 ```
 
-## What is this for
+## What is this for?
 
-This helper can be used with [multiple CSS-in-JS libraries](#supported-libraries), specialy the ones that **don't** use a component-oriented strategy (those libraries enhance the component primitives instead of parsing and applying class names to elements).
+This helper can be used with [multiple CSS-in-JS libraries](#supported-libraries), especialy the ones that **don't** use a component-oriented strategy (those libraries enhance the component primitives instead of parsing and applying class names to elements).
 
 ## Usage
 
-You must import the default module of `react-css-in-js-component` and call it as a function to pass configure your library into it. Consider doing it on your App container, since it gets place before your app is bootstrapped.
+You must import the default module of `react-css-in-js-component` and call it as a function to configure your library. Consider doing it on your App container, since it gets place before your app is bootstrapped.
 
 ```js
 import React from 'react'
