@@ -71,7 +71,7 @@ export default class MyComponent extends Component {
 }
 ```
 
-See [example][https://github.com/fmedinac/react-css-in-js-component/tree/master/example] folder.
+See [example](https://github.com/fmedinac/react-css-in-js-component/tree/master/example) folder.
 
 ## Supported libraries
 
@@ -83,18 +83,19 @@ Each library has its own way to parse `stylesheet` and `css`, the following tabl
 
 | Package | Support | Configuration Notes |
 |-----------------|:-------------:|-------------|
-| [emotion](https://github.com/emotion-js/emotion) | ✅ | Use `css` from library |
-| [fela](https://github.com/rofrischmann/fela/) | ❓ | |
-| [jss](https://github.com/cssinjs/jss) | ❓ | |
-| [rockey](https://github.com/tuchk4/rockey) | ❓ | |
-| [styled-components](https://github.com/styled-components/styled-components) | ❌ | |
 | [aphrodite](https://github.com/Khan/aphrodite) | ✅ | Use `StyleSheet.create` for `StyleSheet` configuration and `css`|
 | [csx](https://github.com/jxnblk/cxs) | ✅ | Use `cxs` for `css` and set `shouldFlatStyles: true`  |
-| [glam](https://github.com/threepointone/glam) | ❌ | |
+| [emotion](https://github.com/emotion-js/emotion) | ✅ | Use `css` from library |
 | [glamor](https://github.com/threepointone/glamor) | ✅ | Use `css` from library |
-| [styletron](https://github.com/rtsao/styletron) | ❌ | |
-| [aesthetic](https://github.com/milesj/aesthetic) | ❌ | |
+| [fela](https://github.com/rofrischmann/fela/) | ❓ | |
 | [j2c](https://github.com/j2css/j2c) | ❓ | |
+| [jss](https://github.com/cssinjs/jss) | ❓ | |
+| [react-native](https://github.com/facebook/react-native) | ❓ | |
+| [rockey](https://github.com/tuchk4/rockey) | ❓ | |
+| [aesthetic](https://github.com/milesj/aesthetic) | ❌ | |
+| [glam](https://github.com/threepointone/glam) | ❌ | |
+| [styled-components](https://github.com/styled-components/styled-components) | ❌ | |
+| [styletron](https://github.com/rtsao/styletron) | ❌ | |
 
 
 ## Global styles
